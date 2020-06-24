@@ -63,9 +63,9 @@
 // let phim = [ 'F&F' , 'one piece' , 'naruto' , 'JAV', 'Mắt biếc'];
 // console.log(phim); // khởi tạo mảng
 
-// // let newMovie = prompt('Enter new movie');
-// // phim.push(newMovie);
-// // console.log(phim);   // thêm mục mới
+// let newMovie = prompt('Enter new movie');
+// phim.push(newMovie);
+// console.log(phim);   // thêm mục mới
 
 // let i = prompt('Nhap vao vi tri can xem');
 // console.log(phim[i]);   // đọc thư mục ở vị trí i
@@ -133,3 +133,23 @@
 // 3. 8 chân \n\
 // 4. 12 chân' )
 
+// while (true)
+// {
+//     let n =prompt('nhập vào lựa chọn của bạn');
+//     if (n < 1 ){
+//         alert('không hợp lệ, vui lòng nhập 1,2,3 hoặc 4');
+//     }else if (n < 3)
+//     {
+//         alert('đáp án sai, trả lời lại ?');
+//     }else if (n == 3)
+//     {
+//         alert('bạn đã đúng');
+//         break;
+//     }else if ( n ==4 )
+//     {
+//         alert('đáp án sai, trả lời lại ?');
+//     }else
+//     {
+//         alert('không hợp lệ, vui lòng nhập 1,2,3 hoặc 4')
+//     }
+// }
