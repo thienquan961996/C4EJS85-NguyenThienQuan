@@ -32,41 +32,37 @@
 // let items = ['Jeans', 'T-Shirt', 'Socks'];
 // console.log(items);
 // let choiceSystem = ['c', 'r', 'u', 'd'];
-// while (true){
+// while (true) {
 //     let n = prompt('Hi there, welcome to shop admin panel!, what do you want (C, R, U, D)');
-//     if ( n == choiceSystem[1])
-// {
-// console.log('the current item are :');
-// for (let i = 0; i < items.length; i++)
-//     {
-//  console.log(items[i]);
-//     }
-//     break;
-// }else if ( n == choiceSystem[0])
-// {
-//     let newIteam = prompt('Enter the name of the newitem');
-//     items = items.push(newIteam);
-//     alert('Done');
-//     console.log(items);
-// }else if ( n == choiceSystem[2])
-// {
-//     let vitri =prompt('Enter the position you want you want to update');
-//     let newName = prompt ('Enter the new name');
-//     items[vitri] = newName;
-//     alert('Done');
-//     console.log(items);
-// }else if ( n == choiceSystem[3])
-// {
-//     let vitri = prompt('Enter the position you want to delete');
-//     items.splice(vitri, 1);
-//     alert('Done');
-//     console.log(items);
-// }else
-// {
-//     alert('This command is not supported');
-// }
+//     if (n == choiceSystem[1]) {
+//         console.log('the current item are :');
+//         for (let i = 0; i < items.length; i++) {
+//             console.log(items[i]);
+//             }
     
-// }
+//     } else if (n == choiceSystem[0]) {
+//         let newIteam = prompt('Enter the name of the newitem');
+//         items.push(newIteam);
+//         alert('Done');
+//         console.log(items);
+//     } else if (n == choiceSystem[2]) {
+//         let vitri = prompt('Enter the position you want you want to update');
+//         let newName = prompt('Enter the new name');
+//         items[vitri] = newName;
+//         alert('Done');
+//         console.log(items);
+//     } else if (n == choiceSystem[3]) {
+//         let vitri = prompt('Enter the position you want to delete');
+//         items.splice(vitri, 1);
+//         alert('Done');
+//         console.log(items);
+//     } else {
+        
+//         alert('This command is not supported');
+//         break;
+//            }
+
+//      }
 
 // console.log("bai5");
 
@@ -146,3 +142,55 @@
 
 // console.log("I would get " + n.reduce(sum) + " * 2$ " + " = " + n.reduce(sum)*2);
 
+// console.log("bai10");
+
+// let name = prompt('enter a sequence of names,');
+//  nameArr = name.split(',');
+// let newarr = [];
+// for (let i=0; i< nameArr.length; i++)
+// {
+//     newarr.push("<" + nameArr[i] + ">");
+// }
+// alert(nameArr + "=>" + newarr);
+
+
+// console.log("tim max dung vong for");
+// let arr = [4,10,8,9];
+// let max = arr[0];
+// for (let i=1; i<= arr.length; i++){
+//     if (max < arr[i]){
+//         max= arr[i]
+       
+//     }
+// }
+// console.log(max);
+
+// console.log("bai11");
+
+// let number = prompt('Enter sequence of numeber: ');
+// let numberArr = number.split(',');
+// let oddArr = [];
+// for(let i = 0; i<numberArr.length; i++)
+// {
+//     if(numberArr[i]%2!=0)
+//     {
+//         oddArr.push(numberArr[i]);
+//     }
+// }
+// console.log(numberArr+ " => "+oddArr);
+
+// console.log('Turtle Exercise');
+// clear();
+// function square() {
+// var colors = ["red", "gray", "blue", "purple", "cyan"];
+//   for(var x=1; x<=4; x++)
+//   {
+//     for (var i=1; i <= 4; i++) {
+//       color(colors[x]);
+//     fd(50*x)
+//     rt(90)
+//   }
+//   }
+  
+// }
+// square()

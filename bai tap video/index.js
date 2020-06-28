@@ -144,6 +144,7 @@
 //     }else if (n == 3)
 //     {
 //         alert('bạn đã đúng');
+//         alert('con nhện có 8 chân')
 //         break;
 //     }else if ( n ==4 )
 //     {
@@ -153,3 +154,4 @@
 //         alert('không hợp lệ, vui lòng nhập 1,2,3 hoặc 4')
 //     }
 // }             // đưa ra câu hỏi và cho người dùng trả lời
+
