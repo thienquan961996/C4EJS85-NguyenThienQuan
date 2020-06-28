@@ -1015,37 +1015,37 @@
 
 //  console.log('bai5')
  
- let product1 = {
-         name: 'Xiaomi portable charger 20000mah',
-         brand: 'Xiaomi',
-         price: 428,
-         color: 'White',
-         category: 'Charger',
-    };
- let product2 = {
-         name: 'VSmart Active 1',
-         brand: 'VSmart',
-         price: 5487,
-         color: 'Black',
-         category: 'Phone',
-     };
- let product3 = {
-         name: 'IPhone X',
-         brand: 'Apple',
-         price: 21490,
-         color: 'Gray',
-         category: 'Phone',
-     };
- let product4 = {
-         name: 'Samsung Galaxy A9',
-         brand: 'Samsung',
-         price: 8490,
-         color: 'Blue',
-         category: 'Phone',
-     };
+//  let product1 = {
+//          name: 'Xiaomi portable charger 20000mah',
+//          brand: 'Xiaomi',
+//          price: 428,
+//          color: 'White',
+//          category: 'Charger',
+//     };
+//  let product2 = {
+//          name: 'VSmart Active 1',
+//          brand: 'VSmart',
+//          price: 5487,
+//          color: 'Black',
+//          category: 'Phone',
+//      };
+//  let product3 = {
+//          name: 'IPhone X',
+//          brand: 'Apple',
+//          price: 21490,
+//          color: 'Gray',
+//          category: 'Phone',
+//      };
+//  let product4 = {
+//          name: 'Samsung Galaxy A9',
+//          brand: 'Samsung',
+//          price: 8490,
+//          color: 'Blue',
+//          category: 'Phone',
+//      };
  
-let product = [product1, product2, product3, product4];
-console.log(product);
+// let product = [product1, product2, product3, product4];
+// console.log(product);
  
 // for ( let i = 0; i < product.length; i++){
 //     console.log('name :' + " " + product[i].name);
@@ -1245,5 +1245,26 @@ console.log(product);
 //     lt(90)
 // }
 
-// console.log("bai10");
+// console.log("bai11");
+
+// const circle = {
+//     shape: 'circle',
+//     x: 100,
+//     y: 50,
+//     radius: 30,
+// };
+// penup();
+// rt(90);
+// fd(circle.x);
+// lt(90);
+// fd(circle.y);
+// pendown();
+
+// for(let i = 0; i < 60; i++) {
+//  fd(1);
+//     rt(360/60);
+// }   // câu này hơi mông lung
+
+
+
 
