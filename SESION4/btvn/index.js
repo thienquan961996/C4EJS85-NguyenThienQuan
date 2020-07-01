@@ -967,19 +967,24 @@
 // console.log('3.1 : kiểu dữ liệu của lớp ngoài cùng là object');
 // console.log('3.2 : array');
 
+// console.log('--------------------------------');
+// console.log(jobSearch.hits[0].jobTitle);
+// console.log(jobSearch.hits[0].locations);
+
+
 // console.log("bai4");
 
 // let dictionary = {
-//     debug : 'The process of figuring out why your program has a certain error and how to fix it',
-//     done : 'When your task is complete, the only thing you have to do is to wait for users to use it (no additional codes or actions needed)',
-//     defect : 'The formal word for ‘error’',
-//     pm : 'The short version of Project Manager, the person in charge of the final result of a project',
-//     'ui/ux' : 'UI means User Interface, UX mean User Experience, are the process to define how your products looks and feels',
+//     debug: 'The process of figuring out why your program has a certain error and how to fix it',
+//     done: 'When your task is complete, the only thing you have to do is to wait for users to use it (no additional codes or actions needed)',
+//     defect: 'The formal word for ‘error’',
+//     pm: 'The short version of Project Manager, the person in charge of the final result of a project',
+//     'ui/ux': 'UI means User Interface, UX mean User Experience, are the process to define how your products looks and feels',
 // };            // 4
-//  alert('Hi there, this is dev dictionary'); 
-//  let item = ['debug', 'done', 'defect', 'pm', 'ui/ux',];
+// alert('Hi there, this is dev dictionary');
+// let item = ['debug', 'done', 'defect', 'pm', 'ui/ux',];
 //  let keyword = prompt('Enter the keyword');
- 
+
 //  if ( keyword == item[0]){
 //      alert(keyword + " " + dictionary.debug);
 //  }else if (keyword == item[1]){
@@ -993,28 +998,27 @@
 //  }else {
 //      alert('`We could not find your word' + " " + keyword)
 //  }                 //4.1
- 
-// if ( keyword == item[0]){
-//           alert(keyword + " " + dictionary.debug);
-        
-//       }else if (keyword == item[1]){
-//           alert(keyword  + " "  + dictionary.done);
-//       }else if ( keyword == item[2]){
-//           alert(keyword  + " " + dictionary.defect);
-//       }else if (keyword == item[3]){
-//           alert((keyword + " " + dictionary.pm));
-//       }else if ( keyword == item[4]){
-//           alert(keyword + " " + dictionary['ui/ux']);
-//       }else if ( keyword != item){
-//              let x =  prompt('We could not find your word:' + " " + keyword + " " + 'leave your explanation');
-//              alert('Done');
-//              dictionary[keyword] = x;
-//              alert(dictionary.keyword);
-//       }     // 4.2 đang xem xét???
-    
+
+// while (true) {
+//     let keyword = prompt('Enter the keyword');
+//     for (var item in dictionary) {
+//         if (keyword == item) {
+//             alert(item + " " + dictionary[keyword]);
+//             break;
+//         }
+
+//     }
+//     if (keyword != item) {
+//         let update = prompt('We could not find your word: ' + " " + keyword + 'leave your explanation');
+//         alert('Done');
+//         dictionary[keyword] = update;
+//     }
+// }  // 4.2
+
+
 
 //  console.log('bai5')
- 
+
 //  let product1 = {
 //          name: 'Xiaomi portable charger 20000mah',
 //          brand: 'Xiaomi',
@@ -1043,10 +1047,10 @@
 //          color: 'Blue',
 //          category: 'Phone',
 //      };
- 
+
 // let product = [product1, product2, product3, product4];
 // console.log(product);
- 
+
 // for ( let i = 0; i < product.length; i++){
 //     console.log('name :' + " " + product[i].name);
 //     console.log('price :' + " " + product[i].price);
@@ -1057,9 +1061,20 @@
 //         let  n = i+1;
 //         console.log('#' + n  + " " + product[i].name);
 //         console.log('price :' + " " + product[i].price);
-        
+
 // }
-// let num = prompt('Enter product position');
+// let num = Number(prompt('Enter product position'));
+
+// for ( let i=0; i < product.length; i++){
+//        if ( num == i ){
+//        console.log('name :' + " " + product[i].name);
+//        console.log('price :' + " " + product[i].price);
+//        console.log('brand :' + "" + product[i].brand);
+//        console.log('color :' + "" + product[i].color);
+//        console.log('category :' + "" + product[i].category);
+// }
+// }    //   5.2  cách 2
+
 
 // if ( num == 1){
 //    for ( let x in product1){
@@ -1077,7 +1092,8 @@
 //     for ( let x in product4){
 //         console.log(x + ":" + " " + product4[x]);
 //     }
-// }             // 5.2
+// }             // 5.2 cách 1
+
 
 // let n = prompt('nhap')
 // let item = ['charger', 'phone'];
@@ -1090,7 +1106,7 @@
 //         console.log('------------------');
 //         console.log('name :'  + " " + product[i].name);
 //         console.log('price :' + " " + product[i].price);
-                
+
 //          }
 //    }
 
@@ -1108,13 +1124,8 @@
 //      console.log('-------------------------');
 //  }      //5.4
 
-// let n = prompt('nhap');
-// if ( product.indexOf(n) == -1){
-//     alert(n + " " + 'is not found')
-// }else {
-//     console.log('----------------');
-//     console.log(product.indexOf(n));
-// }       //5.5 đang xem xét
+
+ 
 
 // console.log("bai6");
 
@@ -1139,7 +1150,7 @@
 //         task: 'Git',
 //         complete: false
 //     }
-    
+
 // ];
 // console.log('Hi there, this is your learning tasks to front-end developer career :');
 // for ( let i = 0; i < learningTasks.length; i++){
@@ -1188,7 +1199,7 @@
 //    console.log( n + "." + learningTasks[i].task);
 //    console.log('complete :' + "" + learningTasks[i].complete);
 //     }
-// }     6.5
+// }    // 6.5
 
 // console.log("bai7");
 
@@ -1222,7 +1233,7 @@
 //           fd(square.width)
 //           lt(90)
 //         }
-    
+
 // console.log("bai9");
 
 // const rect = {
@@ -2205,6 +2216,36 @@
 // console.log('First job title :');
 // console.log(jobData.hits[0].jobTitle);  //15.3
 // console.log(jobData.hits[0].benefits);  //15.4
+// console.log("first job hit benefit : ");
+// for(let i in jobData.hits[0].benefits){
+
+//     console.log(' - ' + jobData.hits[0].benefits[i].benefitValue);
+// }  // 15.5
+// for(let i in jobData.hits){
+//     console.log(jobData.hits[i].jobTitle);
+//     console.log("Benefits : ");
+//     for(let j in jobData.hits[i].benefits)
+//     console.log(' - ' + jobData.hits[i].benefits[j].benefitValue);
+//     console.log('-----------------')
+// }  //15.6
+// for (let i in jobData.hits) {
+//     console.log('Title : ' + jobData.hits[i].jobTitle);
+//     console.log('Salary : ' + jobData.hits[i].jobSalary);
+//     console.log('Location : \n' + ' - ' + jobData.hits[i].locations);
+    
+//     console.log("Benefits : ");
+//     for (let j in jobData.hits[i].benefits)
+//         console.log(' - ' + jobData.hits[i].benefits[j].benefitValue);
+//     console.log("Skills : ");
+//     for (let j in jobData.hits[i].skills)
+//         console.log(' - ' + jobData.hits[i].skills[j]);
+    
+
+//     console.log('-------------------------------');
+
+// } // 15.7
+
+
 
 
 
