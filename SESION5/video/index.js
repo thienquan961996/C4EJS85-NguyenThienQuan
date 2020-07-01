@@ -64,6 +64,7 @@
 // let randomarr = arr[Math.floor(arr.length*Math.random())];
 // console.log(randomarr);
 
+// console.log('basic1');
 
 // let First = {
 //    question: ' Which fictional detective lived at 221b Baker Street? ' ,
@@ -90,10 +91,41 @@
 // }
 // let questions = [First, Second, Three, Four];
 
-// let randomQuestion = questions[Math.floor(questions.length*Math.random())];
-// console.log(randomQuestion);
+// let random = questions[Math.floor(questions.length*Math.random())];
+// console.log(random);
 
-
+// let score = 0;
+// let userChoice1 = prompt(questions[0]['question'] + "\n" + questions[0]['choice'].join('\n'));
+// if (userChoice1 == 4) {
+//     alert('good luck next time');
+//     score++;
+// }else {
+//     alert('wrong answer');
+// };
+// let userChoice2 = prompt(questions[1]['question'] + '\n' + questions[1]['choice'].join('\n'));
+// if ( userChoice2 == 2) {
+//     alert('bravo');
+//     score++;
+// }else {
+//     alert('wrong answer');
+// };
+// let userChoice3 = prompt(questions[2]['question'] + '\n' + questions[1]['choice'].join('\n'));
+// if ( userChoice3 == 1) {
+//     alert('good luck next time');
+//     score++;
+// }else {
+//     alert('wrong answer');
+// };
+// let userChoice4 = prompt(questions[3]['question'] + '\n' + questions[3]['choice'].join('\n'));
+// if ( userChoice4 == 1) {
+//     alert('good');
+//     score++
+// }else {
+//     alert('wrong answer');
+// };
+// alert('we are out of questions :(');
+// alert('you answered correctly ' + " " + score + " " + 'out of' + " " + questions.length + " " + 'questions');
+   // basic 1 (5+6+7)
 
 
 
