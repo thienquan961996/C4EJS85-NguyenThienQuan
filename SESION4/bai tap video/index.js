@@ -1,5 +1,3 @@
-// let person = ['Nam', 19, 'HaNoi', 25, false];
-// console.log(person);
 
 // let person = {};
 // console.log(person);

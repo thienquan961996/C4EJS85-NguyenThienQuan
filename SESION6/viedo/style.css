@@ -1,0 +1,183 @@
+
+/* p {
+    background-color: brown;
+}
+h1 {
+    color: blue;
+}
+#tên {
+    text-decoration: underline;
+}
+
+.titanic{
+    font-style: italic;
+}
+
+.write {
+    color: yellow;
+}
+
+[href] {
+    font-size: 60px;
+}
+
+[type='password']{
+    border: solid red 3px;
+}
+nav a {
+  text-decoration: line-through;
+}
+nav > a {
+    font-weight: bold;
+}
+button:active{
+    background-color: yellow
+}
+input:focus{
+    border: black solid 4px;
+}
+
+img:hover{
+    border: red 2px solid;
+} */
+
+/* #banner{
+    height: 30rem;
+    background-image: url(https://images2.minutemediacdn.com/image/upload/c_fill,w_912,h_516,f_auto,q_auto,g_auto/shape/cover/sport/5901d5b26071f42eb7000001.jpeg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+} */
+/* .corner{
+    border-radius: 4rem ;
+} */
+/* .rect{
+    width: 500px;
+    height: 200px;
+    background-color: yellow;
+} */
+
+img{
+    width: 10%;
+    display: block;
+    margin: 0 auto;
+    }
+
+/* #p1 {
+    color: red;
+}
+#div2 {
+    background-color: #00ff00;
+}
+.B3 {
+font-size: 24px;
+}
+div{
+    font-size: 3em;
+    background: wheat
+  }
+#div2 {
+    color : blue;
+  }  
+  [target] {
+   color: yellow;
+  }
+ul{
+    font-weight: bold;
+}
+div >span {
+    font-size: 18px;
+}
+
+.item>div>span {
+    font-style: italic;
+} */
+
+/* div{
+    background-color: wheat;
+    color: green;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 3rem;
+    font-weight: bold;
+} */
+a{
+    display: inline-block;
+    width: 100px;
+    height: 100px;
+    background:wheat;
+    color: green;
+    line-height: 4rem;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 10px;
+    font-family: fantasy;
+  }
+  #background1 {
+      height: 135px;
+      width: 500px;
+      background-image: url(https://cdn4.iconfinder.com/data/icons/new-google-logo-2015/400/new-google-favicon-512.png);
+      background-size: 75px;
+      background-repeat: repeat-x;
+      background-repeat: repeat-y;
+      background-repeat: no-repeat;
+  }
+#background2 {
+      height: 300px;
+      width: 800px;
+      background-image: url(https://pbs.twimg.com/profile_images/988272404915875840/lE7ZkrO-_400x400.jpg);
+      background-repeat: no-repeat;
+      /* background-size: contain; */
+      background-size: cover;
+}
+#border {
+    width: 200px;
+    height:200px;
+    background:wheat;
+    font-size:30px;
+    text-align:center;
+    line-height:200px;
+    border: blue solid 3px;
+    border-radius: 1rem;
+}
+/* span{
+    display: block;
+    background: red;
+  }
+#display1 {
+    background: blue;
+  }
+#display2{
+    display: inline-block;
+    background: red;
+} */
+
+#span1{
+    background: red;
+  }
+#span2{
+    background:yellow;
+    width: 500px;
+    display: inline-block;
+  }
+#boxmodel1{
+    background: wheat;
+    width:400px;
+    border: 2px solid green;
+    border-width : 45px 40px;
+}
+#a >div {
+    background:wheat;
+     margin: 50px 40px;
+  }
+#a{
+    border:1px solid black
+  }
+#boxmodel3{
+    width : 200px;
+  height : 200px;
+  font-size:2em;
+  background:wheat;
+  box-sizing: border-box;
+  padding-left: 200px;
+}
