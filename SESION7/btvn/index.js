@@ -28,6 +28,7 @@
 // }
 // setTimeout(hello, 3000);  //sau 3s in ra 
 // setInterval(hello, 3000);  //cứ 3s lại in ra 1 lần
+// setInterval( function() {console.log('hello') },3000); //arrow function
 
 // console.log('bai3');
 

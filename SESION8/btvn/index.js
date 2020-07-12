@@ -1,0 +1,1 @@
+document.getElementsByClassName('singer')[1].remove();
