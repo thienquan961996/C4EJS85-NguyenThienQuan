@@ -323,4 +323,89 @@
 // showData();
 // reload.addEventListener('click',showData);
 
+console.log('timesheet');
+
+let timesheetdata = [
+    {
+        project: 'Learn fornt-end',
+        task: 'Learn HTML',
+        time_spent: 6
+    },
+    {
+        project: 'Learn fornt-end',
+        task : 'Learn CSS',
+        time_spent: 8
+    },
+    {
+        project: 'Learn fornt-end',
+        task: 'Learn JS Variables and Data types',
+        time_spent: 6
+    },
+    {
+        project:'Learn git',
+        task : 'Learn git basics',
+        time_spent: 2
+    }
+];
+const newProject = document.getElementById('newProject');
+const newTask = document.getElementById('newTask');
+const newTime = document.getElementById('newTime');
+const add_btn = document.getElementById('add_btn');
+const clear_btn = document.getElementById('clear_btn');
+const table_body = document.getElementById('ts_tbody');
+let num = 0;
+let update_state = false;
+
+console.log(table_body);
+function update_table(){
+    table_body.innerHTML = '';
+    for ( let data of timesheetdata ){
+         table_body.insertAdjacentHTML('beforeend', `<tr><td>${data.project}</td><td>${data.task}</td><td>${data.time_spent}</td><td><button class="remove_btn">X</button><button class="update_btn">U</button></td></tr>`);
+};
+    const remove_btn = document.getElementsByClassName('remove_btn');
+    const update_btn = document.getElementsByClassName('update_btn');
+    for ( let i = 0; i < remove_btn.length; i++){
+        remove_btn[i].addEventListener('click', () => {
+            timesheetdata.splice(i,1);
+            update_table()
+        });
+
+    };
+    for ( let i =0; i< update_btn.length; i++){
+        update_btn[i].addEventListener('click', () =>{
+            update_state = true;
+            num = i;
+            newProject.value = timesheetdata[i].project;
+            newTask.value = timesheetdata[i].task;
+            newTime.value = timesheetdata[i].time_spent;
+        });
+    };
+};
+update_table();
+add_btn.addEventListener('click', () => {
+    if (newProject.value == '' || newTask.value == '' || newTime.value == '') {
+        alert('dont leave stuff blank')
+    } else if (update_state) {
+        timesheetdata[num] = { project: newProject.value, task: newTask.value, time_spent: newTime.value };
+        update_state = false;
+        console.log(timesheetdata);
+        update_table();
+        newProject.value = '';
+        newTask.value = '';
+        newTime.value = '';
+    } else {
+        timesheetdata.push({ project: newProject.value, task: newTask.value, time_spent: newTime.value });
+        console.log(timesheetdata);
+        update_table();
+        newProject.value = '';
+        newTask.value = '';
+        newTime.value = '';
+    };
+});
+clear_btn.addEventListener('click',() => {
+    newProject.value = '';
+    newTask.value = '';
+    newTime.value = '';
+    update_state = false;
+})
  

@@ -11,15 +11,33 @@
     <button id="byDown">-</button> -->
 
    
-    <input type="number" id="timer" placeholder="seconds">
+    <!-- <input type="number" id="timer" placeholder="seconds">
     <button id="timer1">Start</button>
     <button id="timer2" >Stop</button>
-    <div id="count">0</div>
+    <div id="count">0</div> -->
    
     <!-- <div id="reload" style="color: red; font-size: 30px; ">reload</div>
     <div id="quote"></div>
     <div id="author"></div>
        -->
+
+    <!--timesheet-->
+
+    <input type="text" placeholder="Enter project" id="newProject">
+    <input type="text" placeholder="Enter task" id="newTask">
+    <input type="text" placeholder="time spent" id="newTime">
+    <button id="add_btn">Add</button>
+    <button id="clear_btn">Clear</button>
+    <table id="table">
+        <thead>
+            <th>Project</th>
+            <th>Task</th>
+            <th>Time spent</th>
+            <th>Actions</th>
+        </thead>
+        <tbody id="ts_tbody"></tbody>
+    </table>
+     
 
     <script src="index.js"></script>
 </body>
