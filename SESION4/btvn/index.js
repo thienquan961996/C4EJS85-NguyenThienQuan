@@ -1019,37 +1019,37 @@
 
 //  console.log('bai5')
 
-//  let product1 = {
-//          name: 'Xiaomi portable charger 20000mah',
-//          brand: 'Xiaomi',
-//          price: 428,
-//          color: 'White',
-//          category: 'Charger',
-//     };
-//  let product2 = {
-//          name: 'VSmart Active 1',
-//          brand: 'VSmart',
-//          price: 5487,
-//          color: 'Black',
-//          category: 'Phone',
-//      };
-//  let product3 = {
-//          name: 'IPhone X',
-//          brand: 'Apple',
-//          price: 21490,
-//          color: 'Gray',
-//          category: 'Phone',
-//      };
-//  let product4 = {
-//          name: 'Samsung Galaxy A9',
-//          brand: 'Samsung',
-//          price: 8490,
-//          color: 'Blue',
-//          category: 'Phone',
-//      };
+ let product1 = {
+         name: 'Xiaomi portable charger 20000mah',
+         brand: 'Xiaomi',
+         price: 428,
+         color: 'White',
+         category: 'Charger',
+    };
+ let product2 = {
+         name: 'VSmart Active 1',
+         brand: 'VSmart',
+         price: 5487,
+         color: 'Black',
+         category: 'Phone',
+     };
+ let product3 = {
+         name: 'IPhone X',
+         brand: 'Apple',
+         price: 21490,
+         color: 'Gray',
+         category: 'Phone',
+     };
+ let product4 = {
+         name: 'Samsung Galaxy A9',
+         brand: 'Samsung',
+         price: 8490,
+         color: 'Blue',
+         category: 'Phone',
+     };
 
-// let product = [product1, product2, product3, product4];
-// console.log(product);
+let product = [product1, product2, product3, product4];
+console.log(product);
 
 // for ( let i = 0; i < product.length; i++){
 //     console.log('name :' + " " + product[i].name);
@@ -1095,20 +1095,20 @@
 // }             // 5.2 cách 1
 
 
-// let n = prompt('nhap')
-// let item = ['charger', 'phone'];
-//    if ( n == item[0]){
-//        console.log('------------------');
-//        console.log('name :' + "" + product1.name);
-//        console.log('price :' + "" + product1.price);
-//    }else if ( n == item[1]){
-//     for ( let i = 1; i < product.length; i++){
-//         console.log('------------------');
-//         console.log('name :'  + " " + product[i].name);
-//         console.log('price :' + " " + product[i].price);
+let n = prompt('nhap')
+let item = ['charger', 'phone'];
+   if ( n == item[0]){
+       console.log('------------------');
+       console.log('name :' + "" + product1.name);
+       console.log('price :' + "" + product1.price);
+   }else if ( n == item[1]){
+    for ( let i = 1; i < product.length; i++){
+        console.log('------------------');
+        console.log('name :'  + " " + product[i].name);
+        console.log('price :' + " " + product[i].price);
 
-//          }
-//    }
+         }
+   }
 
        // 5.3 
 

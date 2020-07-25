@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+
+</head>
+
+<body>
+    <div id="huan">
+
+    </div>
+    <script>
+        const test = { image: './img/tải xuống.jpg' };
+        const huan = document.getElementById('huan');
+
+        huan.insertAdjacentHTML('beforeend', `
+    <div class= "image">
+        <img src="${test.image}" alt="">
+        </div>
+    `
+        );
+
+
+    </script>
+</body>
+
+</html>
