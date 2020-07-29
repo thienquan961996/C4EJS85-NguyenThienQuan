@@ -133,81 +133,81 @@
 
 // console.log('basic 2 là câu 15 SESION4');
 
-// console.log('basic 3');
+console.log('basic 3');
 
-// const words = ['to', 'be', 'that', 'of', 'elon', 'to', 'this', 'now', 'back', 'cool', 'hey', 'love', 'of', 'life', 'that', 'rain', 'summer', 'color', 'now', 'of', 'hat', 'late', 'sorry', 'my', 'team'];
-// const count = {};
-// for ( let i = 0; i < words.length; i++){
-//     if (count[words[i]]){
-//         count[words[i]] ++;
-//     }else {
-//     count[words[i]] = 1;
-// } 
-// } 
-// for ( let x in count){
-//     console.log(x + ":" + "" + count[x]);
-// };
-
-const inventory = [
-    {
-    name: 'HP Envy 13aq',
-    price: 21000,
-    brand: 'HP',
-    quantity: 5,
-    },
-    {
-    name: 'Dell XPS 9370',
-    price: 30000,
-    brand: 'Dell',
-    quantity: 1,
-    },
-    {
-    name: 'Dell Inspiron 3567',
-    price: 9300,
-    brand: 'Dell',
-    quantity: 12,
-    },
-    {
-    name: 'Dell Latitude E5450',
-    price: 8600,
-    brand: 'Dell',
-    quantity: 2,
-    },
-    {
-    name: 'Asus Zenbook',
-    brand: 'Asus',
-    price: 20000,
-    quantity: 4,
-    },
-    {
-    name: 'HP Pavilion',
-    brand: 'HP',
-    price: 14000,
-    quantity: 7,
-    }
-];
-let inventoryByBrand = {
-    "HP":[],
-    "Asus":[],
-    "Dell":[],
+const words = ['to', 'be', 'that', 'of', 'elon', 'to', 'this', 'now', 'back', 'cool', 'hey', 'love', 'of', 'life', 'that', 'rain', 'summer', 'color', 'now', 'of', 'hat', 'late', 'sorry', 'my', 'team'];
+const count = {};
+for ( let i = 0; i < words.length; i++){
+    if (count[words[i]]){
+        count[words[i]] ++;
+    }else {
+    count[words[i]] = 1;
+} 
+} 
+for ( let x in count){
+    console.log(x + ":" + "" + count[x]);
 };
-for ( let i = 0; i < inventory.length; i++){
-    const inventorys = inventory[i];
-    console.log(inventorys);
-    const brand = inventorys.brand;
-    inventoryByBrand[brand].push(inventorys);
-}
-console.log(inventoryByBrand);
 
-let n = prompt('nhap');
-let cat =[];
-for ( let i = 0; i <inventory.length; i++){
-    if (n == inventory[i].brand){
-        cat.push(inventory[i])
-    }
-}
-for ( let i=0; i< inventory.length; i++){
-       alert('There are' + " "  + cat.length + " " + 'generations of' + " " + "'" +n +"'"+ " " + 'inventory ');
+// const inventory = [
+//     {
+//     name: 'HP Envy 13aq',
+//     price: 21000,
+//     brand: 'HP',
+//     quantity: 5,
+//     },
+//     {
+//     name: 'Dell XPS 9370',
+//     price: 30000,
+//     brand: 'Dell',
+//     quantity: 1,
+//     },
+//     {
+//     name: 'Dell Inspiron 3567',
+//     price: 9300,
+//     brand: 'Dell',
+//     quantity: 12,
+//     },
+//     {
+//     name: 'Dell Latitude E5450',
+//     price: 8600,
+//     brand: 'Dell',
+//     quantity: 2,
+//     },
+//     {
+//     name: 'Asus Zenbook',
+//     brand: 'Asus',
+//     price: 20000,
+//     quantity: 4,
+//     },
+//     {
+//     name: 'HP Pavilion',
+//     brand: 'HP',
+//     price: 14000,
+//     quantity: 7,
+//     }
+// ];
+// let inventoryByBrand = {
+//     "HP":[],
+//     "Asus":[],
+//     "Dell":[],
+// };
+// for ( let i = 0; i < inventory.length; i++){
+//     const inventorys = inventory[i];
+//     console.log(inventorys);
+//     const brand = inventorys.brand;
+//     inventoryByBrand[brand].push(inventorys);
+// }
+// console.log(inventoryByBrand);
 
-}   // đang xem xét
+// let n = prompt('nhap');
+// let cat =[];
+// for ( let i = 0; i <inventory.length; i++){
+//     if (n == inventory[i].brand){
+//         cat.push(inventory[i])
+//     }
+// }
+// for ( let i=0; i< inventory.length; i++){
+//        alert('There are' + " "  + cat.length + " " + 'generations of' + " " + "'" +n +"'"+ " " + 'inventory ');
+
+// }   // đang xem xét
 

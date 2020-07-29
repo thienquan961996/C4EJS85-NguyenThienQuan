@@ -4,9 +4,39 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=, initial-scale=1.0">
     <title>Document</title>
+    <style>
+        .mySlides{
+            width: 500px;
+            height: auto;
+        }
+    </style>
 </head>
 <body>
     <h2>hello</h2>
+
+    <div class="Slide" >
+								
+        <img class="mySlides" src="./slide/0E59BFB2-5B42-4E25-AD6D-37BA7D58EC4E-800x300.png" >
+        <img class="mySlides" src="./slide/800-300-800x300-1.png" >
+        <img class="mySlides" src="./slide/800-300-800x300-8.png" >
+        <img class="mySlides" src="./slide/reno-combo-800-300-800x300.png" >
+      </div>
+      <script>
+        let myIndex = 0;
+        slide();
+        
+        function slide() {
+        //   let i;
+          let x = document.getElementsByClassName("mySlides");
+          for (i = 0; i < x.length; i++) {
+            x[i].style.display = "none";  
+          }
+          myIndex++;
+          if (myIndex > x.length) {myIndex = 1}    
+          x[myIndex-1].style.display = "block";  
+          setTimeout(slide, 2000);    
+        }
+        </script>
     <script src="index.js"></script>
 </body>
 </html>
