@@ -4,29 +4,99 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-
-
-
+    <link rel="stylesheet" href="./css/quan.css">
+    <script src="https://kit.fontawesome.com/d22d9dd2e6.js" crossorigin="anonymous"></script>
+    <!-- Latest compiled and minified CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <!-- jQuery library -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <!-- Popper JS -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.16.0/umd/popper.min.js"></script>
+    <!-- Latest compiled JavaScript -->
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+    <title>Cart</title>
 </head>
 
 <body>
-    <div id="huan">
-
-    </div>
-    <script>
-        const test = { image: './img/tải xuống.jpg' };
-        const huan = document.getElementById('huan');
-
-        huan.insertAdjacentHTML('beforeend', `
-    <div class= "image">
-        <img src="${test.image}" alt="">
+    <header class="container">
+        <div class="head">
+            <h1 class="bold">Mobile Shop</h1>
         </div>
-    `
-        );
+        <div class="nav">
+            <ul>
+                <li><a href="index.html"><button>Home</button></a></li>
+                <li><button>About us</button></li>
+                <li><button>Contact</button></li>
+            </ul>
+            <div class="search">
+                <input type="text" value="" placeholder="Search">
+                <button><i class="fas fa-search"></i></button>
+            </div>
+    </header>
+  <div id="content">  
+    <div class="row" id="intro">
+        <div id="box1" class="col">
+            <h2>WHO WE ARE</h2>
+             <p>Là những thành viên thuộc nhóm 2 của lớp C4EJS-85, cùng nhau làm một project có đề tài là mobile-shop. Mặc dù lúc đầu còn nhiều sai sót nhưng sau những cố gắng và nỗ lực của tất cả thành viên trong nhóm thì cuối cùng cũng hoàn thiện được sản phẩm đầu tay của nhóm</p>
 
+        </div>
+        <div id="box2" class="col">
+            <h2>OUR HISTORY</h2>
+            <div class="year"><p>9-7-2020:</p></div>
+            <p> Bắt đầu làm Project</p>
+            <div class="year"><p>16-7-2020:</p></div>
+            <p> Nêu ra được những dự định về project của mình</p>
+            <div class="year"><p>23-7-2020:</p></div>
+            <p> Hoàn thành phần lớn bên js</p>
+            <div class="year"><p>26-7-2020:</p></div>
+            <p> Bắt đầu vào làm html-css</p>
+            <div class="year"><p>31-7-2020:</p></div>
+            <p> Chỉnh sửa bug và hoàn thiện thêm chi tiết project</p>
 
-    </script>
+        </div>
+        <div id="box3" class="col">
+            <h2>Target</h2>
+            <p>Tốt nghiệp chuyên ngành công nghệ phần mềm, đạt chứng chỉ lập trình Java - CGC JAVA tại Mindx. Nắm vững kiến thức chuyên ngành về Spring Framework và Hibernate, SQL và database, Java Core & OOP, HTML, CSS và Javascript. Tìm kiếm công việc lập trình viên Java trong môi trường làm việc chuyên nghiệp và năng động để có thể phát huy được năng lực bản thân trong việc phát triển các sản phẩm phần mềm chất lượng bằng ngôn ngữ Java. Môi trường làm việc nhiều thử thách là động lực và cơ hội để chúng tôi hoàn thiện kiến thức nghề nghiệp và trở thành một lập trình viên giỏi.</p>
+        </div>
+    </div>
+
+    <h2>OUR TEAM</h2>
+ <div class="sesion group">
+    <div class="ourteam" class="imgteam">
+        <img src="https://scontent.fhan2-1.fna.fbcdn.net/v/t31.0-8/p720x720/17760872_771813186320548_4878502634327813415_o.jpg?_nc_cat=102&_nc_sid=110474&_nc_ohc=DctTm_20II0AX8jGDwK&_nc_ht=scontent.fhan2-1.fna&_nc_tp=6&oh=356a94ce93655dbe090eaed036b0f7c5&oe=5F51D0D7" style="width: 250px;" alt="">
+        <h3>Lưu Thế Mạnh</h3>
+        <h4>Leader</h4>
+    </div>
+    <div class="ourteam" class="imgteam">
+        <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.0-9/p720x720/111748863_1425104491033708_158179907942606626_o.jpg?_nc_cat=111&_nc_sid=85a577&_nc_ohc=3YRclbHL-5sAX--Eh18&_nc_ht=scontent.fhan2-2.fna&_nc_tp=6&oh=867ea2d290420f71df6c660b0c36a5b7&oe=5F5112F0" style="width: 250px;" alt="">
+        <h3>Bùi Duy Huân</h3>
+        <h4>Thành viên nhóm</h4>
+    </div>
+    <div class="ourteam" class="imgteam">
+        <img src="https://scontent.fhan2-2.fna.fbcdn.net/v/t1.15752-9/53676954_293773094623763_2150318725847318528_n.jpg?_nc_cat=106&_nc_sid=b96e70&_nc_ohc=Tcvd1PUMuR4AX9XGFd7&_nc_oc=AQnp9LwoIaUpRCa4jNE2MyLaqRoiLXnLgXPGqzNPzl9hYRz5cb8GBZ-Vqj9GZbvM848&_nc_ht=scontent.fhan2-2.fna&oh=b6ad665c49e8f83c41e59e3dc8b1ae09&oe=5F509588" style="width: 250px;" alt="">
+        <h3>Nguyễn Thiện Quân</h3>
+        <h4>Thành viên nhóm</h4>
+    </div>
+    <div class="ourteam" class="imgteam">
+        <img src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.0-1/p960x960/106719266_1432415090277020_6309683441928675871_o.jpg?_nc_cat=100&_nc_sid=dbb9e7&_nc_ohc=EKc3yraF-vIAX_AWEsv&_nc_ht=scontent.fhan2-6.fna&_nc_tp=6&oh=67737a5d940e40869b3150f29ac5aaf8&oe=5F4F5D92" style="width: 250px;" alt="">
+        <h3>Lê Quang Dương</h3>
+        <h4>Thành viên nhóm</h4>
+    </div>
+ </div>
+    <h2>SUPPORT</h2>
+<div class="support group">
+    <div class="support">
+        <img src="https://scontent.fhan2-4.fna.fbcdn.net/v/t1.0-9/107652442_10222085012972844_8128153595270969126_o.jpg?_nc_cat=104&_nc_sid=110474&_nc_ohc=5ZQ5pzbEqoMAX_BSw6t&_nc_ht=scontent.fhan2-4.fna&oh=fb2f00895bd4ec6b1a46afe44028e27e&oe=5F5054E8" style="width: 250px;" alt="">
+        <h3>Nguyễn Hữu Định</h3>
+        <h4>Giảng viên</h4>
+    </div>
+    <div class="support">
+        <img src="https://scontent.fhan2-6.fna.fbcdn.net/v/t1.0-9/p960x960/110314676_2006745492798268_4811317458809606363_o.jpg?_nc_cat=100&_nc_sid=85a577&_nc_ohc=ZLd47zhf9iMAX8pPftQ&_nc_ht=scontent.fhan2-6.fna&_nc_tp=6&oh=6f4d03436317c5e176ccb4322daa5bdb&oe=5F514DB1" style="width: 250px" alt="">
+        <h3>Hưng</h3>
+        <h4>Trợ giảng</h4>
+    </div>
+</div>
+</div>
 </body>
 
 </html>
